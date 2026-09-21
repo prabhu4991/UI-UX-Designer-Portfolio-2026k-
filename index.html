@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>C. Prabhu | UI/UX Designer</title>
+
+    <meta name="description"
+        content="C. Prabhu is a UI/UX Designer creating simple, intuitive and user-focused digital experiences for web and mobile.">
+
+    <meta name="author" content="C. Prabhu">
+
+    <meta name="theme-color" content="#090b18">
+
+    <link rel="canonical" href="https://uiux-designer-portfolio.vercel.app/">
+
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- PARTICLES -->
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js" defer></script>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+    <!-- BACKGROUND -->
+
+    <div class="background-glow glow-one"></div>
+
+    <div class="background-glow glow-two"></div>
+
+    <div id="tsparticles"></div>
+
+
+    <!-- SCROLL TOP -->
+
+    <button id="scroll-top" aria-label="Back to top" type="button">
+        ↑
+    </button>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar" aria-label="Main navigation">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                C. <span>Prabhu</span>
+            </a>
+
+
+            <!-- MOBILE MENU -->
+
+            <button class="menu-toggle"
+                aria-label="Toggle menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+                type="button">
+
+                ☰
+
+            </button>
+
+
+            <!-- NAV LINKS -->
+
+            <ul class="nav-links" id="nav-menu">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#case-studies">Case Studies</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <!-- THEME TOGGLE -->
+
+            <button class="theme-toggle"
+                id="theme-toggle"
+                aria-label="Toggle light and dark mode"
+                type="button">
+
+                <span class="sun" aria-hidden="true">
+                    ☀
+                </span>
+
+                <span class="moon" aria-hidden="true">
+                    ☾
+                </span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-intro">
+                Hi, I'm
+            </p>
+
+            <h1>
+                C. <span class="accent">Prabhu</span>
+            </h1>
+
+            <h2>
+
+                UI/UX Designer creating
+
+                <span class="gradient-text">
+                    simple and user-focused
+                </span>
+
+                digital experiences.
+
+            </h2>
+
+            <p class="lead">
+
+                I design intuitive websites and mobile experiences
+                with a focus on usability, clean interfaces,
+                and visual design.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#case-studies" class="btn primary">
+                    View My Work
+                </a>
+
+                <a href="assets/ui-ux%20designer%20cv%20new.pdf"
+                    download
+                    class="btn secondary">
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO IMAGE -->
+
+        <div class="hero-visual">
+
+            <div class="hero-image-wrapper">
+
+                <img src="Figma Image/montblanc_case_study.png"
+                    alt="Montblanc motorcycle concept UI design"
+                    class="mockup"
+                    width="1200"
+                    height="800"
+                    loading="eager"
+                    decoding="async">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section about">
+
+        <div class="container">
+
+            <div class="section-label">
+                ABOUT ME
+            </div>
+
+            <h2>
+
+                Designing with
+
+                <span class="accent">
+                    purpose.
+                </span>
+
+            </h2>
+
+
+            <div class="about-content">
+
+                <p class="lead">
+
+                    I'm a UI/UX Designer who enjoys creating simple,
+                    intuitive, and visually engaging digital experiences.
+
+                </p>
+
+                <p>
+
+                    I work with wireframes, user flows, prototypes,
+                    and visual design to turn ideas into clear
+                    and usable interfaces.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section skills">
+
+        <div class="container">
+
+            <div class="section-label">
+                MY SKILLS
+            </div>
+
+            <h2>
+
+                Skills &
+
+                <span class="accent">
+                    Tools
+                </span>
+
+            </h2>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">
+                        01
+                    </div>
+
+                    <h3>
+                        UX Design
+                    </h3>
+
+                    <p>
+                        User Flows • Wireframing • Prototyping •
+                        Usability Testing
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">
+                        02
+                    </div>
+
+                    <h3>
+                        UI Design
+                    </h3>
+
+                    <p>
+                        Visual Design • Responsive Design •
+                        Typography • Design Systems
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Tools
+                    </h3>
+
+                    <p>
+                        Figma • Adobe XD • Photoshop • Illustrator
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Development
+                    </h3>
+
+                    <p>
+                        HTML • CSS • JavaScript
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CASE STUDIES -->
+
+    <section id="case-studies" class="section case-studies">
+
+        <div class="container">
+
+            <div class="section-label">
+                FEATURED WORK
+            </div>
+
+            <h2>
+
+                Case
+
+                <span class="accent">
+                    Studies
+                </span>
+
+            </h2>
+
+            <p class="section-intro">
+
+                Selected projects showing my approach to UI design
+                and user experience.
+
+            </p>
+
+
+            <!-- CASE STUDY 01 -->
+
+            <article class="case-card">
+
+                <div class="case-visual">
+
+                    <img src="Figma Image/tomato-case-study.png"
+                        alt="Tomato Delivery App UI design"
+                        loading="lazy"
+                        decoding="async"
+                        width="1200"
+                        height="800">
+
+                </div>
+
+
+                <div class="case-content">
+
+                    <span class="case-number">
+                        Case Study 01
+                    </span>
+
+                    <h3>
+                        Tomato Delivery App
+                    </h3>
+
+                    <p class="meta">
+                        Food Delivery • Mobile • Figma
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>
+                            Mobile UX
+                        </span>
+
+                        <span>
+                            Ordering Flow
+                        </span>
+
+                        <span>
+                            UI Design
+                        </span>
+
+                    </div>
+
+
+                    <p>
+
+                        A simple food delivery experience focused
+                        on easy browsing, ordering, and checkout.
+
+                    </p>
+
+
+                    <a href="https://www.figma.com/design/DWxAAnEnwKdSR7Eoaz4JKl/food-App?node-id=0-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="case-link">
+
+                        View Case Study →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CASE STUDY 02 -->
+
+            <article class="case-card reverse">
+
+                <div class="case-visual">
+
+                    <img src="Figma Image/E-bike Web UI Design.png"
+                        alt="EV-B electric scooter website UI"
+                        loading="lazy"
+                        decoding="async"
+                        width="1200"
+                        height="800">
+
+                </div>
+
+
+                <div class="case-content">
+
+                    <span class="case-number">
+                        Case Study 02
+                    </span>
+
+                    <h3>
+                        EV-B Electric Scooter
+                    </h3>
+
+                    <p class="meta">
+                        Product Landing Page • Web • Figma
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>
+                            Web UI
+                        </span>
+
+                        <span>
+                            Product Design
+                        </span>
+
+                        <span>
+                            Mobility
+                        </span>
+
+                    </div>
+
+
+                    <p>
+
+                        A clean product experience designed to
+                        highlight features, performance, and design.
+
+                    </p>
+
+
+                    <a href="#projects"
+                        class="case-link">
+
+                        View Project →
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- SELECTED PROJECTS -->
+
+    <section id="projects" class="section projects">
+
+        <div class="container">
+
+            <div class="section-label">
+                MORE WORK
+            </div>
+
+
+            <h2 class="projects-title-box">
+
+                <span class="title-normal">
+                    Selected
+                </span>
+
+                <span class="title-gradient">
+                    Projects
+                </span>
+
+            </h2>
+
+
+            <p class="section-intro">
+
+                Additional UI and visual design explorations.
+
+            </p>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 01 -->
+
+                <a href="https://www.figma.com/design/DWxAAnEnwKdSR7Eoaz4JKl/food-App?node-id=122-112"
+                    class="project-card"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/Food_plate_case_study.png"
+                            alt="Food Platters website UI"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            WEB UI
+                        </span>
+
+                        <h3>
+                            Food Platters Website
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 02 -->
+
+                <a href="https://www.figma.com/design/bNmZoiw7i1BNOfub5BlJ8Q/King-Rock?node-id=91-232"
+                    class="project-card"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/Donut_case_study.png"
+                            alt="Donut animation UI"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            MOTION UI
+                        </span>
+
+                        <h3>
+                            Donut Animation UI
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 03 -->
+
+                <a href="https://www.figma.com/design/3qEM4KHyJ98em5UzuVdZBz/Tech-Project?node-id=0-1"
+                    class="project-card"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/Tech_case_study.png"
+                            alt="Technology interface design"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            UI DESIGN
+                        </span>
+
+                        <h3>
+                            Tech Concept Design
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 04 -->
+
+                <a href="https://www.figma.com/design/3qEM4KHyJ98em5UzuVdZBz/Tech-Project?node-id=183-2"
+                    class="project-card"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/Apollo_case_study.png"
+                            alt="Apollo project UI design"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            PRODUCT UI
+                        </span>
+
+                        <h3>
+                            Apollo Project
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 05 -->
+
+                <a href="https://www.figma.com/design/DWxAAnEnwKdSR7Eoaz4JKl/food-App?node-id=0-1"
+                    class="project-card"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/tomato-case-study.png"
+                            alt="Tomato mobile app UI"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            MOBILE UI
+                        </span>
+
+                        <h3>
+                            Tomato Mobile App
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 06 -->
+
+                <a href="#home"
+                    class="project-card">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/montblanc_case_study.png"
+                            alt="Montblanc motorcycle concept UI"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            PRODUCT CONCEPT
+                        </span>
+
+                        <h3>
+                            Montblanc Motorcycle Concept
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- PROJECT 07 -->
+
+                <a href="#home"
+                    class="project-card">
+
+                    <div class="project-image">
+
+                        <img src="Figma Image/SpinWin_case_study.png"
+                            alt="SpinWin mobile app UI"
+                            loading="lazy"
+                            decoding="async">
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            MOBILE UI
+                        </span>
+
+                        <h3>
+                            SpinWin Mobile App
+                        </h3>
+
+                        <span class="project-view">
+                            View Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section contact">
+
+        <div class="container">
+
+            <div class="section-label">
+                CONTACT
+            </div>
+
+            <h2>
+
+                Let's
+
+                <span class="accent">
+                    Connect
+                </span>
+
+            </h2>
+
+
+            <p class="lead">
+
+                Interested in a UI/UX opportunity or want to discuss
+                a project? Let's connect.
+
+            </p>
+
+
+            <div class="contact-info">
+
+                <p>
+                    📍 New Delhi, India
+                </p>
+
+                <p>
+
+                    📞
+
+                    <a href="tel:+917042374454">
+                        +91 70423 74454
+                    </a>
+
+                </p>
+
+                <p>
+
+                    ✉️
+
+                    <a href="mailto:cprabhuvellar@gmail.com">
+                        cprabhuvellar@gmail.com
+                    </a>
+
+                </p>
+
+                <p>
+
+                    LinkedIn →
+
+                    <a href="https://linkedin.com/in/c-prabhu-541367129"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        View Profile
+
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 C. Prabhu • UI/UX Designer
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
